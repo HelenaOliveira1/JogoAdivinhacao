@@ -19,7 +19,7 @@ def JogoAdivinhacao(num):
 
         numUsuario = int(input("Digite outro número entre 1 e 100: "))
         
-        if(num != numUsuario)
+        if(num != numUsuario):
             aux += 1
         if (aux == 3):
             print("")
