@@ -12,18 +12,19 @@ def JogoAdivinhacao(num):
     for i in range(1,3):
         if (num == numUsuario):
             print("Parabéns! Você venceu!")
-            break
         elif (num > numUsuario):
             print("Ops, o número é maior que este.")
         elif (num < numUsuario):
             print("Ops, o número é menor que este.")
 
         numUsuario = int(input("Digite outro número entre 1 e 100: "))
-
-        aux += 1
+        
+        if(num != numUsuario)
+            aux += 1
         if (aux == 3):
             print("")
             print("GAME OVER")
+            print("O número era", num)
 
             print("")
             print("Digite 1 para JOGAR NOVAMENTE ou 2 para SAIR")
